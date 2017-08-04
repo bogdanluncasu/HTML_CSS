@@ -1,0 +1,62 @@
+* {
+	border:1px solid gray;
+}
+
+body{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+	header{
+		margin:1% 2%;
+		nav{
+			margin:0.5% 2%
+		}
+	}
+	footer{
+		margin:2% 2%;
+		clear: left;
+	}
+}
+
+
+
+section>nav{
+	margin:0.5% 2%
+}
+
+#sectionleft{
+	float: left;
+	width: 30%;
+	margin: 0% 2%
+}
+
+#sectionright{
+	display: inline-block;
+	width: 63.5%;
+}
+
+section>aside{
+	margin:1% 4%;
+}
+
+#sectionright>article>header,
+#sectionright>article>#divfirst,#sectionright>article>p,
+#sectionright>article>#divsecond{
+	margin:2% 2%;
+}
+
+#sectionright>header,#sectionright>article,#sectionright>footer{
+	margin:2% 4% 2% 2%;
+}
+
+#sectionright>article>#divfirst{
+	display: inline;
+}
+
+#sectionright>article>aside{
+	display: inline;
+}
+
+
+
+

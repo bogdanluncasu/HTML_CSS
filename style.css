@@ -1,0 +1,78 @@
+*{
+	border:1px solid gray;
+}
+
+body{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;	
+	background:#E4F1FE;
+}
+
+html{
+	background-size: cover;
+	animation: backcolor 1s infinite alternate;
+}
+
+@keyframes backcolor{
+	0%{
+		background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb3d);
+	}
+	20%{
+		background: linear-gradient(to right, #1a2a7d, #b21f2f, #fdbb4d);
+	}
+	100%{
+		background: linear-gradient(to right, #1a2a8e, #b21f3f, #fdbb5d);
+	}
+}
+body>header{
+	margin:1% 2%;
+	background: gray;
+	
+}
+
+header>nav,section>nav{
+	margin:0.5% 2%
+}
+
+#sectionleft{
+	float: left;
+	width: 30%;
+	margin: 0% 2%;
+	box-sizing: border-box;
+}
+
+#sectionright{
+	display: inline-block;
+	width: 62%;
+	margin: 0% 2%;
+	box-sizing: border-box;
+}
+
+section>aside{
+	margin:1% 4%;
+}
+
+body>footer,#sectionright>article>header,
+#sectionright>article>#divfirst,#sectionright>article>p,
+#sectionright>article>#divsecond{
+	margin:2% 2%;
+}
+
+#sectionright>header,#sectionright>article,#sectionright>footer{
+	margin:2% 4% 2% 2%;
+}
+
+#sectionright>article>#divfirst{
+	display: inline;
+}
+
+#sectionright>article>aside{
+	display: inline;
+}
+
+body>footer{
+	clear: left;
+}
+
+
